@@ -124,3 +124,34 @@ img{
     font-weight: bold;
     margin-top: 1.5rem;
 }
+
+.design_head{
+    display: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+.design_text{
+    display: none;
+    text-align: center;
+    align-items: center;
+    line-height:2;
+    font-size: 15px;
+}
+
+.dev_head{
+    display: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.dev_text{
+    display: none;
+    text-align: center;
+    align-items: center;
+    line-height:2;
+    font-size: 15px;
+}
