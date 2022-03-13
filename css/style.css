@@ -48,4 +48,15 @@ img{
     align-items: center;
     text-align: center;
     
+    
+}
+
+.about p{
+ letter-spacing: 1.5px;
+ line-height: 2.5;
+
+}
+
+.about h2{
+    font-weight: bold;
 }
