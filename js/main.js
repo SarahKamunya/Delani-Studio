@@ -13,6 +13,24 @@ $(document).ready(function(){
 
     })
 
+    $('#dev_img').on('click', function(){
+        $('.dev_head').toggle();
+         $('#dev_img').hide();
+        $('.dev_text').toggle()
+    })
+
+
+    $('.dev_text').on('click', function(){
+        $('.dev_head').hide();
+         $('#dev_img').show();
+        $('.dev_text').hide();
+    })
+    
+
+
+
+
+
     // $('.design_text').on('click', function(){
     //     $('.design_head').toggle();
     //     $('#design_img').toggle();
