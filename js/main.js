@@ -27,40 +27,23 @@ $(document).ready(function(){
     })
     
 
+    $('#product_img').on('click', function(){
+        $('.product_head').toggle();
+         $('#product_img').hide();
+        $('.product_text').toggle()
+    })
 
+    $('.product_text').on('click', function(){
+        $('.product_head').hide();
+         $('#product_img').show();
+        $('.product_text').hide()
+    })
 
-
-
-    // $('.design_text').on('click', function(){
-    //     $('.design_head').toggle();
-    //     $('#design_img').toggle();
-    //     $('.design_text').toggle();
-
-    // })
-
-    // $('#dev_img').on('click', function(){
-    //     $('.dev_head').toggle();
-    //     $('#dev_img').toggle();
-    //     $('.dev_text').toggle();
-
-    // })
-
-    // $('.dev_head').on('click', function(){
-    //     $('.dev_head').toggle();
-    //     $('#dev_img').toggle();
-    //     $('.dev_text').toggle();
-
-    // })
-
-    // $('.dev_text').on('click', function(){
-    //     $('.dev_head').toggle();
-    //     $('#dev_img').toggle();
-    //     $('.dev_text').toggle();
-
-    // })
     
 
+
+
+
+
   
-
-
 });
