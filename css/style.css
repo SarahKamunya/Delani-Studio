@@ -166,3 +166,28 @@ img{
     font-size: 15px;
     cursor: pointer;
 }
+
+#product_img{
+    cursor: pointer;
+}
+
+.product_head{
+    display: none;
+    text-align: center;
+    align-items: center;
+    line-height:2;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.product_text{
+
+    display: none;
+    text-align: center;
+    align-items: center;
+    line-height:2;
+    font-size: 15px;
+    cursor: pointer;
+
+}
