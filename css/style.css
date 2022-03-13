@@ -60,3 +60,25 @@ img{
 .about h2{
     font-weight: bold;
 }
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("/images/s_image.jpg") ;
+    color: #ffffff;
+    margin-top: 1.5rem;
+}
+
+.services p{
+    letter-spacing: 1.5px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.services h2{
+    margin-top: 9.5rem;
+    font-weight: bold;
+}
