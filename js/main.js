@@ -39,6 +39,12 @@ $(document).ready(function(){
         $('.product_text').hide()
     })
 
+    $('.btn').click(function(){
+        let myName= $("input#name").val();
+        alert(`${myName} we have received your message.Thank you for reaching out to us`)
+        $("form").trigger("reset");
+    })
+ 
     
 
 

@@ -205,6 +205,7 @@ img{
 .contact{
     background: url(/images/c_image.jpg);
     color: #fff;
+    height: 70vh;
 }
 
 .contact h2{
@@ -218,7 +219,7 @@ img{
     
 }
 
-#w4{
+/* #w4{
     background-color: #000;
     color: #fff;
     height: 60%;
@@ -227,9 +228,9 @@ img{
     position: relative;
     top: -250px;
 
-}
+} */
 
-#w3{
+/* #w3{
     background-color: #000;
     color: #fff;
     height: 60%;
@@ -252,18 +253,18 @@ img{
 }
 
 #w1{
-    /* background-color: #000; */
+    background-color: #000;
     color: #fff;
-    /* height: 100%;
-    width: 100%;
-    text-align: center; */
+    height: 60%;
+    width: 40%;
+    text-align: center;
     position: relative;
     top: -250px;
 
 }
 
 #w5{
-    /* background-color: #000; */
+    background-color: #000;
     color: #fff;
     height: 60%;
     width: 40%;
@@ -273,7 +274,7 @@ img{
 
 }
 #w6{
-    /* background-color: #000; */
+    background-color: #000;
     color: #fff;
     height: 60%;
     width: 40%;
@@ -284,7 +285,7 @@ img{
 }
 
 #w7{
-    /* background-color: #000; */
+    background-color: #000;
     color: #fff;
     height: 60%;
     width: 40%;
@@ -295,7 +296,7 @@ img{
 }
 
 #w8{
-    /* background-color: #000; */
+    background-color: #000;
     color: #fff;
     height: 60%;
     width: 40%;
@@ -303,7 +304,7 @@ img{
     position: relative;
     top: -250px;
 
-}
+} */
 
 #card_1{
    display:flex;
@@ -321,15 +322,43 @@ img{
     width: 100%;
     position: relative;
     top: -150px;
+    
+
 }
 
 #row_2{
-    margin-top: -180px;
+    margin-top: -150px;
 }
 
 .work{
-    /* display: none; */
-   border:#fff solid
-    width: 100%;
-    height: 100%;
+background: #ffffff;
+height: 100%;
+width: 100%;
+position: absolute;
+text-align: center;
+top: 0;
+left: 0;
+}
+
+#form input{
+
+    background-color: transparent;
+
+
+}
+
+#form textarea{
+    background-color: transparent;
+}
+
+.form-control::placeholder{
+    color: #fff;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin-top: -120px;
 }
