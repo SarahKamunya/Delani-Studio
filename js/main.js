@@ -44,6 +44,57 @@ $(document).ready(function(){
         alert(`${myName} we have received your message.Thank you for reaching out to us`)
         $("form").trigger("reset");
     })
+
+    $('#w1').mouseenter(function(){
+        $('.overlay').filter('#t1').show('slow')
+    }).mouseleave(function(){
+        $('#t1').hide('slow')
+    })
+
+    $('#w2').mouseenter(function(){
+        $('.overlay').filter('#t2').show('slow')
+    }).mouseleave(function(){
+        $('#t2').hide('slow')
+    })
+
+    $('#w3').mouseenter(function(){
+        $('.overlay').filter('#t3').show('slow')
+    }).mouseleave(function(){
+        $('#t3').hide('slow')
+    })
+
+    $('#w4').mouseenter(function(){
+        $('.overlay').filter('#t4').show('slow')
+    }).mouseleave(function(){
+        $('#t4').hide('slow')
+    })
+
+    $('#w5').mouseenter(function(){
+        $('.overlay').filter('#t5').show('slow')
+    }).mouseleave(function(){
+        $('#t5').hide('slow')
+    })
+
+    $('#w6').mouseenter(function(){
+        $('.overlay').filter('#t6').show('slow')
+    }).mouseleave(function(){
+        $('#t6').hide('slow')
+    })
+
+    $('#w7').mouseenter(function(){
+        $('.overlay').filter('#t7').show('slow')
+    }).mouseleave(function(){
+        $('#t7').hide('slow')
+    })
+
+    $('#w8').mouseenter(function(){
+        $('.overlay').filter('#t8').show('slow')
+    }).mouseleave(function(){
+        $('#t8').hide('slow')
+    })
+
+
+
  
     
 
