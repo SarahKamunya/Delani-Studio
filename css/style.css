@@ -11,7 +11,7 @@ body{
     width: 100%;
     height: 90vh;
     position: relative;
-    background: url("images/h_img.jpg") no-repeat center center/cover;
+    background: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true") no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +69,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("images/s_image.jpg") ;
+    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true") ;
     color: #ffffff;
     margin-top: 1.5rem;
 }
@@ -203,7 +203,7 @@ body{
 }
 
 .contact{
-    background: url("images/c_image.jpg");
+    background: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
     color: #fff;
     height: 70vh;
 }
