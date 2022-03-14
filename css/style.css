@@ -38,9 +38,9 @@ body{
  
 }
 
-img{
+/* img{
     margin-top: 9rem;
-}
+} */
 
 .about{
     display: flex;
@@ -199,7 +199,7 @@ img{
     align-items: center;
     text-align: center;
     font-weight: bold;
-    margin-top: 3.5rem;
+    /* margin-top: 3.5rem; */
 }
 
 .contact{
@@ -221,7 +221,7 @@ img{
 
 
 
-#card_1{
+/* #card_1{
    display:flex;
 
    flex-direction: column; 
@@ -231,9 +231,9 @@ img{
    
    height: 30%;
      
-}
+} */
 
-#card_1 img{
+/* #card_1 img{
     width: 100%;
     position: relative;
     top: -150px;
@@ -243,17 +243,8 @@ img{
 
 #row_2{
     margin-top: -150px;
-}
+} */
 
-.work{
-background: #ffffff;
-height: 100%;
-width: 100%;
-position: absolute;
-text-align: center;
-top: 0;
-left: 0;
-}
 
 #form input{
 
@@ -278,31 +269,35 @@ footer{
   margin-top: -120px;
 }
 
-.card{
+/* .card{
     border: none;
-}
+} */
 
-.list-2 img{
+/* .list-2 {
     padding-top: 200px;
-}
+} */
 
 
 .overlay{
+    position:absolute;
     background-color: rgba(255, 255, 255, 0.466);
     width: 100%;
-    height: 100%;
-    position: absolute;
+    height: 70%;
+    
     top:0;
+    left: 0;
     display: none;
     text-align: center;
+    /* padding-top: -100px; */
 }
 
-.list-2 .img-fluid{
+/* .list-2 .img-fluid{
     margin-top: -170px;
-}
+} */
 
 .container-fluid p{
 
     font-weight: bold;
 
 }
+
